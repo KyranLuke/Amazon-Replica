@@ -1,0 +1,80 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+  padding: 31%;
+}
+.sign{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 10px;
+    min-width: max-content;
+    height: min-content;
+    margin-top: auto;
+    white-space: nowrap;
+}
+.in{
+    padding-left: 20px;
+    padding-bottom: opx;
+}
+.middle{
+    padding: 0px;
+}
+.pass{
+    padding: 5px;
+    margin: 0%;
+    width: 70%;
+    height: 0%;
+    display: table;
+    display: table-cell;
+    vertical-align: auto;
+}
+.password{
+    padding: 0px;
+    margin: 0%;
+    width: 0%;
+    height: 0%;
+    display: table;
+    display: table-cell;
+    vertical-align: auto;
+}
+.button{
+    background-color: orange;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    border-bottom-width: 100%;
+    width: 100%;
+}
+.submit{
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+}
+.new{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .new span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+.create{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    text-decoration-line: none;
+}
